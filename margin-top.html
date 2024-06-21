@@ -1,0 +1,81 @@
+<html>
+<head>
+<style>
+div {
+	 border: 1px solid black;
+	 margin:20px;
+	 pedding:20px 20px 30px 40px;
+	 height:100px;
+	 width:100%;
+	 background-color: lightblue;
+}
+p.uppercase{text-transform:uppercase;}
+p.lowercase{text-transform:lowercase;}
+p.capitalize{text-transform:capitalize;}
+#pelanggan {
+	font-family:Arial,helvetica,sans-serif;
+	border-collapse:collapse;
+	width:100%;
+	border:1px;
+}
+
+#pelanggan td, #pelanggan th {
+	border: 5px solid #ddd;
+	padding:8px;
+}
+
+#pelanggan tr:nth-child(even){background-color: #f2f2f2;}
+#pelanggan tr:hover {bacekground-color: #ddd;}
+
+#pelanggan th {
+	pading-top: 12px;
+	padding-bottom: 12px;
+	text-align:left;
+	background-color: #04AA6D;
+	color:white;
+}
+</style>
+</head>
+<body>
+	<h2>menggunakan properti margin individual</h2>
+	<hr>
+	<div>Elemen div ini memiliki margin atas 100px, margin kanan 150px, margin bawah 100px, dan margin kiri 80px,</div>
+	<hr>
+	<p class="uppercase">ini teks uppercase</p>
+	<p class="lowercase">ini teks lowercase</p>
+	<p class="capitalize">ini teks capital</p>
+     
+     <div>
+     	<h1>table</h1>
+     	<table id="pelanggan">
+     		<tr>
+     			<th>perusahaan</th>
+     			<th>kontak</th>
+     			<th>negara</th>
+     	    </tr>
+     	    <tr>
+     	    	<td>BMW</td>
+     	    	<td>maria</td>
+     	    	<td>germany</td>
+     	    </tr>
+     	    <tr>
+     	    	<td>NOKIA</td>
+     	    	<td>Christina berglind</td>
+     	    	<td>finlandia</td>
+     	    </tr>
+     	    <tr>
+     	    	<td>microsoft</td>
+     	    	<td>francisco</td>
+     	    	<td>America</td>
+     	    </tr>
+     	    <tr>
+     	        <td>Samsung</td>
+     	        <td>roland mendel</td>
+     	        <td>korea selatan</td>
+     	    </tr>
+     	</table>
+    </body>
+	</html>
+
+
+
